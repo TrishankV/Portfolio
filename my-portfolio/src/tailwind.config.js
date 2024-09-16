@@ -6,7 +6,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        arcade: ['Press Start 2P', 'cursive'],
+        arcade: ['Arcade Regular', 'sans-serif'], // Updated font name
+      },
+      fontSize: {
+        '7xl': '5rem', // Custom size example
+        '8xl': '6rem', // Larger custom size example
       },
       colors: {
         'arcade-black': '#000000',
