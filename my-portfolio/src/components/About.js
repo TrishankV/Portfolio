@@ -10,7 +10,9 @@ const About = ({ addToRefs }) => {
       aria-labelledby="about-heading"
     >
       <h2 id="about-heading" className="text-4xl mb-4 text-arcade-yellow pixel-art">About Me</h2>
-      <p className="text-lg pixel-art">I’m a Fourth year college student for the University of Mumbai doing a bachelor's in AI and DS. I am an enthusiast about AI and development in AI and have tried to improve my skills in AI.</p>
+      <p style={{ fontSize: '23px' , lineHeight: '1.25' }}> {/* Adding inline style */}
+        Not that highly motivated, B Tech AIDS Final Year student with ample hands-on experience in Python and SQL (from jr college). Passionate about the studies and recent developments in Artificial Intelligence. Seeking opportunities to contribute to innovative projects and further develop skills in software (AI) development and Data Analysis.
+      </p>
     </section>
   );
 };
