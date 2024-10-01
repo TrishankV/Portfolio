@@ -87,6 +87,7 @@ const App = () => {
 
         {/* About Section */}
         <About addToRefs={addToRefs} />
+        <PikachuWalking />
         
         {/* Projects Section */}
         <Projects addToRefs={addToRefs} />

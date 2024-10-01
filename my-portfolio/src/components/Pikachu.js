@@ -17,8 +17,8 @@ const PikachuRunning = () => {
             <AnimatedSpriteSheet
                 filename={pikachuSprite}
                 initialFrame={0} // Start with the first frame
-                frame={{ width: 1200, height: 40 }} // Size of each frame (adjust based on your sprite sheet)
-                bounds={{ x: 2, y: 3, width: 840, height: 100 }} // Total width for the running frames
+                frame={{ width: 12000, height: 40 }} // Size of each frame (adjust based on your sprite sheet)
+                bounds={{ x: 0, y: 0., width: 1200, height: 100 }} // Total width for the running frames
                 isPlaying // Start the animation automatically
                 loop // Loop the animation
                 speed={150} // Adjust the speed of the animation
