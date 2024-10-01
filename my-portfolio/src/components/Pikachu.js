@@ -1,24 +1,30 @@
-// src/components/Pikachu.js
+// src/components/PikachuRunning.js
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
-import pikachuSprite from '../assets/pikachu.png'; // Ensure the path is correct
+import { AnimatedSpriteSheet } from 'react-spritesheet';
+import pikachuSprite from '../assets/pikachu.png';
+import pikachuSound from '../assets/pikachu.mp3';
+import '../Pikachu.css';
 
-// Define animation keyframes for walking
-const walkRightAnimation = keyframes`
-  0% { background-position: -120px; }
-  100% { background-position: -960px; }
-`;
-
-const PikachuContainer = styled.div`
-  width: 100px; 
-  height: 100px; 
-  background-image: url(${pikachuSprite}); 
-  background-size: 1200px 100px; 
-  animation: ${walkRightAnimation} 0.5s steps(8) infinite; 
-`;
-
-const PikachuWalking = () => {
-  return <PikachuContainer />;
+// Function to handle the click event (outside the component)
+const handleClick = () => {
+    const audio = new Audio(pikachuSound);
+    audio.play(); // Play the sound
 };
 
-export default PikachuWalking;
+const PikachuRunning = () => {
+    return (
+        <div className="pikachu-container" onClick={handleClick}>
+            <AnimatedSpriteSheet
+                filename={pikachuSprite}
+                initialFrame={0} // Start with the first frame
+                frame={{ width: 1200, height: 40 }} // Size of each frame (adjust based on your sprite sheet)
+                bounds={{ x: 2, y: 3, width: 840, height: 100 }} // Total width for the running frames
+                isPlaying // Start the animation automatically
+                loop // Loop the animation
+                speed={150} // Adjust the speed of the animation
+            />
+        </div>
+    );
+};
+
+export default PikachuRunning;

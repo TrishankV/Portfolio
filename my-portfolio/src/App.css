@@ -2,6 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
+/* src/App.css */
+
+/* Base styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.pikachu-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .pikachu-container {
+    flex-direction: column; /* Stack elements vertically */
+    width: 100%; /* Full width on smaller screens */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .pikachu-container {
+    width: 80%; /* 80% width on tablets */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+  .pikachu-container {
+    width: 60%; /* 60% width on larger screens */
+  }
+}
+
+/* Example for header and footer responsiveness */
+.header, .footer {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .header, .footer {
+    padding: 10px;
+  }
+}
+
 /* Custom colors */
 .bg-arcade-dark { background-color: #111; }
 .bg-arcade-light { background-color: #222; }

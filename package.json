@@ -3,6 +3,7 @@
     "react": "^17.0.0",
     "react-dom": "^17.0.0",
     "react-sprite-animator": "^2.0.2",
+    "react-spritesheet": "^1.0.1",
     "styled-components": "^6.1.13"
   }
 }
