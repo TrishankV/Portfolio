@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c5435b8.css",
+    "main.js": "/static/js/main.8783f5c6.js",
+    "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
+    "static/media/pixel-cursor.png": "/static/media/pixel-cursor.dde699bf7bdfa51e16bd.png",
+    "static/media/ainspa.jpg": "/static/media/ainspa.c94597da794700a79546.jpg",
+    "static/media/eduboost-image.png": "/static/media/eduboost-image.87f536de57f7ecd6a926.png",
+    "static/media/dd.jpg": "/static/media/dd.ef980ce576a64c8eb74f.jpg",
+    "static/media/mgc.png": "/static/media/mgc.bc5df2e232bae1456468.png",
+    "static/media/pikachu.mp3": "/static/media/pikachu.887a4157ea185a15b6e8.mp3",
+    "static/media/trish2.png": "/static/media/trish2.91b3d4ef62e3bc09c0f3.png",
+    "static/media/trish1.png": "/static/media/trish1.b6a55c973a7053e2f479.png",
+    "static/media/ARCADE.TTF": "/static/media/ARCADE.0908c501a4d2c9da77ed.TTF",
+    "static/media/pikachu.png": "/static/media/pikachu.8a57edeac446218b3d5d.png",
+    "index.html": "/index.html",
+    "main.3c5435b8.css.map": "/static/css/main.3c5435b8.css.map",
+    "main.8783f5c6.js.map": "/static/js/main.8783f5c6.js.map",
+    "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c5435b8.css",
+    "static/js/main.8783f5c6.js"
+  ]
+}
