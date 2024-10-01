@@ -1,9 +1,9 @@
 import React, { useEffect, useState, useRef } from 'react';
-import linkedinIcon from './assets/icons/linkedin.png';
-import githubIcon from './assets/icons/github.png';
-import instagramIcon from './assets/icons/instagram.png';
-import twitterIcon from './assets/icons/twitter.png';
-import './icons.css'; // Import the CSS file for animations
+import linkedinIcon from '../assets/icons/linkedin.png';
+import githubIcon from '../assets/icons/github.png';
+import instagramIcon from '../assets/icons/instagram.png';
+import twitterIcon from '../assets/icons/twitter.png';
+import '../CSSes/icons.css'; // Import the CSS file for animations
 
 // Function to resize image
 function resizeImage(imageSrc, newWidth, newHeight, callback) {

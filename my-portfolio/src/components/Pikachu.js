@@ -3,7 +3,7 @@ import React from 'react';
 import { AnimatedSpriteSheet } from 'react-spritesheet';
 import pikachuSprite from '../assets/pikachu.png';
 import pikachuSound from '../assets/pikachu.mp3';
-import '../Pikachu.css';
+import '../CSSes/Pikachu.css';
 
 // Function to handle the click event (outside the component)
 const handleClick = () => {

@@ -1,7 +1,7 @@
 // src/components/Contact.js
 
 import React from 'react';
-import SocialIcons from '../resized_icons';
+import SocialIcons from './resized_icons';
 
 const Contact = ({ addToRefs }) => {
   return (

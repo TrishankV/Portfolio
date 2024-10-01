@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FlipImage from './components/FlipImage';
 import PikachuWalking from './components/Pikachu';
 
 const App = () => {
@@ -79,10 +80,8 @@ const App = () => {
     <div className="bg-arcade-black text-arcade-green font-arcade min-h-screen bg-pixel">
       <Header />
       <main className="p-8 flex flex-col items-center">
-        <div className="w-48 h-48 mb-8 bg-arcade-pink border-4 border-arcade-blue flex items-center justify-center rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105 animate-pulse pixel-art">
-          <img src="./assets/773993385225741025.png" alt="Pixel Art" className="w-full h-full object-cover" />
-        </div>
-
+        <FlipImage / >
+     
         {/* Quiz Section */}
         <Quiz />
 

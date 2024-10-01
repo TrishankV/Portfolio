@@ -1,5 +1,3 @@
-// src/components/About.js
-
 import React from 'react';
 
 const About = ({ addToRefs }) => {
