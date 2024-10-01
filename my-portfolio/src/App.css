@@ -11,6 +11,10 @@
 .bg-arcade-blue { background-color: #00F; }
 .bg-arcade-purple { background-color: #800080; }
 .bg-arcade-pink { background-color: #FFC0CB; }
+/* Custom cursor styles */
+body {
+  cursor: url('./assets/pixel-cursor.png'), auto; 
+}
 
 /* Custom focus styles */
 :focus {
@@ -182,4 +186,43 @@
 
 .arcade-button:active {
   background-color: #cc00cc;
+}
+
+/* Existing styles... */
+
+.quiz-container {
+  margin: 20px 0;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  border-radius: 8px;
+  border: 2px solid #00ff00; /* Green border for quiz */
+}
+
+.timeline-container {
+  background-color: rgba(255, 255, 255, 0.1); /* Background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  margin: 20px 0; /* Add margin to separate it from other sections */
+}
+
+.timeline-list {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #555; /* Divider line between items */
+}
+
+.timeline-year {
+  font-weight: bold;
+  color: #ffcc00; /* Year color */
+}
+
+.timeline-event {
+  color: #fff; /* Event description color */
 }
